@@ -43,7 +43,7 @@ Notepad++OpenSees is a user defined language option for Notepad++ to support syn
 
 All of the source code is available at github [project][home] under the MIT licence:
 ```
-Copyright (c) 2015 Borja Zarco <borja@bzarco.com>
+Copyright (c) 2015 Ali Irmak Ozdagli <aliirmak@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
