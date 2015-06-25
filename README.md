@@ -12,7 +12,7 @@ Notepad++OpenSees is a user defined language option for Notepad++ to support syn
 
 ## Features
 
-- Support for OpenSees and Tcl syntax
+- Support for OpenSees and Tcl syntax in Notepad++
 
 ## Installation
 
