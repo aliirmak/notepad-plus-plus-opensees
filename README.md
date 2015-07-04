@@ -7,7 +7,7 @@ Notepad++OpenSees is a user defined language option for Notepad++ to support syn
 - [Installation](#installation)
 - [Updating](#updating)
 - [Issues](#issues)
-- [Support](#support)
+- [Contribute](#contribute)
 - [License](#license)
 
 ## Features
@@ -16,27 +16,29 @@ Notepad++OpenSees is a user defined language option for Notepad++ to support syn
 
 ## Installation
 
-1. Download the [zip package][zipPackage] and extract.
-2. Click 'Language > Define your language...' menu.
-3. Import the extracted 'OpenSees.xml' file.
-4. Restart Notepad++.
-5. Open your '.tcl' file and click 'Language > OpenSees' menu.
+1. You need to first install [Notepad++][npp] to use this tool.
+2. Download the [zip package][zipPackage] and extract.
+3. Click `Language > Define your language...` menu.
+4. Import the extracted `OpenSees.xml` file.
+5. Restart Notepad++.
+6. Open your `.tcl` file and click `Language > OpenSees` menu.
 
 ## Updating
 
-1. Check [home] for updates.
-2. Click 'Language > Define your language...' menu.
+1. Check [project page][home] for updates.
+2. Click `Language > Define your language...` menu.
 3. Select OpenSees and remove.
 4. Follow installation steps [above](#installation).
 
 ## Issues
 
-- Due to limitations of User Defined Language Engine of Notepad++, TCL keywords are not supported natively. A workaround is performed by defining TCL keywords manually.
-- Currently, auto-completion is not supported. A tool will be released soon.
+- Due to limitations of User Defined Language Engine of Notepad++, Tcl keywords are not supported natively. A workaround is performed by defining Tcl keywords manually. On the other hand, this issue does not affect usability of the tool much.
+- Currently, auto-completion is not supported. I am planning to release one. Your contribution is most welcome.
+- Works best on dark themes. Not tested for light themes.
 
-## Support
+## Contribute
 
-- Any bug or feature request should be reported [here][issues].
+- You can contribute to the project by reporting any bug or feature request [here][issues].
 - You are welcome to fork and submit pull requests.
 
 ## License
@@ -64,7 +66,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-
+[npp]: https://notepad-plus-plus.org/download/ "Notepad++"
 [home]: https://github.com/aliirmak/notepad-plus-plus-opensees "Home"
 [zipPackage]: https://github.com/aliirmak/notepad-plus-plus-opensees/archive/master.zip "Zip Package"
 [issues]: https://github.com/aliirmak/notepad-plus-plus-opensees/issues "Issues"
